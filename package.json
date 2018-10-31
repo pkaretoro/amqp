@@ -1,0 +1,34 @@
+{
+  "name": "amqp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Pavlo Karpovets",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.5.9",
+    "@types/jest": "^23.3.8",
+    "@types/lodash": "^4.14.117",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest"
+    },
+    "testRegex": "/test/.*\\.(ts|tsx|js)$"
+  }
+}

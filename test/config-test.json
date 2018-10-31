@@ -1,0 +1,14 @@
+{
+	"url": "amqp://guest:guest@localhost:5672/",
+	"consumers": [
+		{
+			"processingAttempts": 5,
+			"queues": [
+				{
+					"name": "test-queue",
+					"consume": true
+				}
+			]
+		}
+	]
+}
